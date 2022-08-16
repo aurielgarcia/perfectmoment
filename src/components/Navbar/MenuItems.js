@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 export const MenuItems = [
     {
         title: 'Home',
@@ -21,8 +23,9 @@ export const MenuItems = [
     },
     {
         title: 'About Us',
-        url: '#',
+        url: './aboutus',
         cName: 'nav-links'
+        
     },
     {
         title: 'Sign Up',
